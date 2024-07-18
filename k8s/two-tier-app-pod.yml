@@ -5,10 +5,10 @@ metadata:
 spec:
   containers:
   - name: two-tier-app-pod
-    image: trainwithshubham/flaskapp:latest
+    image: vinodeinfochips/flaskapp:latest
     env:
       - name: MYSQL_HOST
-        value: "10.98.19.211"          # this is your mysql's service clusture IP, Make sure to change it with yours
+        value: "10.110.67.113"          # this is your mysql's service clusture IP, Make sure to change it with yours
       - name: MYSQL_PASSWORD
         value: "admin"
       - name: MYSQL_USER
